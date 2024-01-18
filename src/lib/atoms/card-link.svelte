@@ -12,6 +12,10 @@ export let cardLink
 
 <style>
 
+    section{
+        margin: 1rem;
+    }
+    
     a{
         background: var(--primary-button-color);
         width: fit-content;

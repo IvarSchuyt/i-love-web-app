@@ -12,8 +12,8 @@
 
 <section>
 
-    <img src={cardImage} height="100px" width="200px" alt="Afbeelding van {cardTitle}">
-    <time datetime={cardDate}></time>
+    <img src={cardImage} height="100px" width="200px" alt="Afbeelding van {cardTitle}"/>
+    <time datetime={cardDate}>{cardDate}</time>
     <h2>{cardTitle}</h2>
     <p>{cardText}</p>
 
@@ -23,5 +23,24 @@
 </section>
 
 <style>
+
+section{
+        display: flex;
+        flex-direction: column;
+        background: var(--secondary-background-color);
+        border-radius: 1rem;
+        height: 26rem;
+        margin: 1.25rem 0;
+    }
+
+section > *:not(img){
+    padding: 0.25rem 1rem;
+}
+
+img{
+    height: 12.5rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
 
 </style>
