@@ -6,7 +6,7 @@ export let headerText
 
 <section>
 
-<a href="/">
+<a href="/" title="naar de homepagina">
     <h1>WE ❤️ WEB</h1>
 </a>  
 

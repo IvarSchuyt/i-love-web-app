@@ -4,7 +4,6 @@
     export let cardDate
     export let cardTitle
     export let cardText
-
     import {CardLink} from '$lib/index.js'
     export let cardLink2
 
