@@ -4,9 +4,7 @@
     export let cardDate
     export let cardTitle
     export let cardText
-    import {CardLink} from '$lib/index.js'
-    export let cardLink2
-
+    
 </script>
 
 <section>
@@ -15,9 +13,6 @@
     <time datetime={cardDate}>{cardDate}</time>
     <h2>{cardTitle}</h2>
     <p>{cardText}</p>
-
-    <CardLink
-    cardLink={cardLink2}/>
 
 </section>
 

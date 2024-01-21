@@ -6,46 +6,96 @@
 </script>
 
 <Header
-headerText= 'Een succesvolle webpresentatie is essentieel om online impact te maken. Of het nu gaat om zakelijke voorstellingen, educatieve seminars of productlanceringen, een boeiende webpresentatie trekt de aandacht en houdt het publiek geboeid. Gebruik visueel aantrekkelijke slides, heldere boodschappen en interactieve elementen om de betrokkenheid te vergroten.'
+headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door docenten en gastsprekers over ontwikkelingen op het web. 
+            De sprekers vertellen over nieuwe tools, libraries en manieren om de performance en toegankelijkheid te verbeteren.
+            Op deze pagina documenteer ik de presentaties die ik heb bijgewoond.'
   />
 
 <main>
 
-  <Card
-    cardImage={testImage}
-    cardDate='01-01-2001'
-    cardTitle='Testcard'
-    cardText='Test bla bla bla bla bla'
-    cardLink2='/detailpage' 
-  />
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
 
-  <Card
-  cardImage={testImage}
-  cardDate='01-01-2001'
-  cardTitle='Testcard'
-  cardText='Test bla bla bla bla bla'
-  cardLink2='/detailpage' 
-/>
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
 
-<Card
-cardImage={testImage}
-cardDate='01-01-2001'
-cardTitle='Testcard'
-cardText='Test bla bla bla bla bla'
-cardLink2='/detailpage' 
-/>
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={testImage}
+      cardDate='01-01-2001'
+      cardTitle='Testcard'
+      cardText='Test bla bla bla bla bla'
+      cardLink2='/detailpage' 
+      />
 
 </main>
 
 <style>
 
   main{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(22rem, 1fr));
+    justify-items: center;
     background: var(--primary-background-color);
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 2rem 0;
   }
 

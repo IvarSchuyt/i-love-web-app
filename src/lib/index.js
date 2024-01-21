@@ -10,6 +10,7 @@ export { default as Header } from "./atoms/Header.svelte";
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 
 export { default as Card } from "./molecules/card.svelte";
+export { default as Detail } from "./molecules/detail.svelte";
 
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------

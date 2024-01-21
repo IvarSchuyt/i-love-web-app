@@ -24,8 +24,4 @@ section{
     padding: 2rem;
 }
 
-p{
-    max-width: 80vw;
-  }
-
 </style>

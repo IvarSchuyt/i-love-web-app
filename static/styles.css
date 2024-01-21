@@ -36,3 +36,7 @@ h2 {
 time {
   color: var(--primary-text-color);
 }
+
+p {
+  max-width: 65ch;
+}
