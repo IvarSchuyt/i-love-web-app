@@ -16,4 +16,12 @@ export { default as Detail } from "./molecules/detail.svelte";
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 
-export { default as testImage } from "./assets/test.webp";
+export { default as placeholderImage } from "./assets/placeholder.webp";
+export { default as fennaImage } from "./assets/fenna.webp";
+export { default as krijn2Image } from "./assets/krijn2.webp";
+export { default as juliaImage } from "./assets/julia.webp";
+export { default as yolijnImage } from "./assets/yolijn.webp";
+export { default as ishaImage } from "./assets/isha.webp";
+export { default as krijn1Image } from "./assets/krijn1.webp";
+export { default as cydImage } from "./assets/cyd.webp";
+export { default as susanImage } from "./assets/susan.webp";

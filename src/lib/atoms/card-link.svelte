@@ -14,6 +14,7 @@ export let cardLink
 
     section{
         margin: 1rem;
+        margin-bottom: 1.5rem;
     }
     
     a{

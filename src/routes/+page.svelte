@@ -1,6 +1,6 @@
 <script>
 
-  import {Card, testImage, Header} from '$lib/index.js'
+  import {Card, Header, placeholderImage, cydImage, fennaImage, ishaImage, juliaImage, krijn1Image, krijn2Image, susanImage, yolijnImage} from '$lib/index.js'
   
 
 </script>
@@ -14,73 +14,65 @@ headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door doce
 <main>
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={fennaImage}
+      cardDate='19-01-2024'
+      cardTitle='Fenna de Wilde'
+      cardText='Toegankelijk webdesign: aria, focus states en andere manieren om toegankelijkheid te verbeteren.'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={krijn2Image}
+      cardDate='17-01-2024'
+      cardTitle='Krijn Hoetmer'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={juliaImage}
+      cardDate='15-12-2023'
+      cardTitle='Julia Miocene'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={yolijnImage}
+      cardDate='24-11-2023'
+      cardTitle='Yolijn van der Kolk'
+      cardText='NL Design System: Toegankelijk designsysteem voor Nederlandse gemeentes'
+      cardLink2='/detailpage' 
+      />
+
+      <Card
+      cardImage={ishaImage}
+      cardDate='20-10-2023'
+      cardTitle='Isha Gast'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={krijn1Image}
+      cardDate='26-05-23'
+      cardTitle='Krijn Hoetmer'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={cydImage}
+      cardDate='31-03-23'
+      cardTitle='Cyd Stumpel'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
 
       <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
-      />
-
-      <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
-      />
-
-      <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
-      />
-
-      <Card
-      cardImage={testImage}
-      cardDate='01-01-2001'
-      cardTitle='Testcard'
+      cardImage={susanImage}
+      cardDate='17-02-23'
+      cardTitle='Susan Lau'
       cardText='Test bla bla bla bla bla'
       cardLink2='/detailpage' 
       />
@@ -91,7 +83,7 @@ headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door doce
 
   main{
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(22rem, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(23rem, 1fr));
     justify-items: center;
     background: var(--primary-background-color);
     width: 100%;

@@ -28,10 +28,14 @@ section{
         flex-direction: column;
         background: var(--secondary-background-color);
         border-radius: 1rem;
-        height: 23.25rem;
+        height: fit-content;
         width: fit-content;
         margin: 1.25rem 0;
     }
+
+p{
+    max-width: 18rem;
+}
 
 section > *:not(img){
     padding: 0.25rem 1rem;
