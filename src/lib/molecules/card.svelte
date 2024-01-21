@@ -11,7 +11,7 @@
 
 <section>
 
-    <img src={cardImage} height="100px" width="200px" alt="Afbeelding van {cardTitle}"/>
+    <img src={cardImage} height="1000px" width="1000px" alt="{cardTitle}"/>
     <time datetime={cardDate}>{cardDate}</time>
     <h2>{cardTitle}</h2>
     <p>{cardText}</p>
