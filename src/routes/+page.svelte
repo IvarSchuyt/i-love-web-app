@@ -18,63 +18,63 @@ headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door doce
       cardDate='19-01-2024'
       cardTitle='Fenna de Wilde'
       cardText='Toegankelijk webdesign: aria, focus states en andere manieren om toegankelijkheid te verbeteren.'
-      cardLink2='/detailpage' 
+      cardLink2='/fenna-de-wilde' 
       />
 
       <Card
       cardImage={krijn2Image}
       cardDate='17-01-2024'
       cardTitle='Krijn Hoetmer'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Presentatie over progressive enhancement en feature detection.'
+      cardLink2='/krijn-hoetmer-2' 
       />
 
       <Card
       cardImage={juliaImage}
       cardDate='15-12-2023'
       cardTitle='Julia Miocene'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Presentatie over super complexe pure CSS animaties.'
+      cardLink2='/julia-miocene' 
       />
 
       <Card
       cardImage={yolijnImage}
       cardDate='24-11-2023'
       cardTitle='Yolijn van der Kolk'
-      cardText='NL Design System: Toegankelijk designsysteem voor Nederlandse gemeentes'
-      cardLink2='/detailpage' 
+      cardText='NL Design System: Toegankelijk designsysteem voor Nederlandse gemeentes.'
+      cardLink2='/yolijn-van-der-kolk' 
       />
 
       <Card
       cardImage={ishaImage}
       cardDate='20-10-2023'
       cardTitle='Isha Gast'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Presentatie over toegankelijkheid en hoe hij hiermee te werk gaat.'
+      cardLink2='/isha-gast' 
       />
 
       <Card
       cardImage={krijn1Image}
       cardDate='26-05-23'
       cardTitle='Krijn Hoetmer'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Krijn verteld over zijn webapp voor badminton en hoe hij het progressively enhanced.'
+      cardLink2='/krijn-hoetmer-1' 
       />
 
       <Card
       cardImage={cydImage}
       cardDate='31-03-23'
       cardTitle='Cyd Stumpel'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Prijswinnende websites die niet toegankelijk zijn, Gsap en Wordpress.'
+      cardLink2='/cyd-stumpel' 
       />
 
       <Card
       cardImage={susanImage}
       cardDate='17-02-23'
       cardTitle='Susan Lau'
-      cardText='Test bla bla bla bla bla'
-      cardLink2='/detailpage' 
+      cardText='Presentatie over de site van Campspace en uitleg over hoe ze APIs gebruiken.'
+      cardLink2='/susan-lau'
       />
 
 </main>
