@@ -6,7 +6,7 @@ export let cardLink
 
 <section>
 
-<a href={cardLink}>Lees meer</a>
+<a href={cardLink} aria-label="Lees meer over deze presentatie">Lees meer</a>
 
 </section>
 
