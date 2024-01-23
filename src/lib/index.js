@@ -3,7 +3,7 @@
 // Hier export je alle atoms ----------------------------------------------------------------------------------------------------------------
 
 export { default as CardLink } from "./atoms/card-link.svelte";
-export { default as Header } from "./atoms/Header.svelte";
+export { default as Header } from "./atoms/header.svelte";
 
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
