@@ -11,7 +11,7 @@
 
 <section>
 
-    <img src={cardImage} height="1000px" width="1000px" alt="{cardTitle}"/>
+    <img src={cardImage} height="1000px" width="1000px" alt="{cardTitle}" loading="lazy"/>
     <time datetime={cardDate}>{cardDate}</time>
     <h2>{cardTitle}</h2>
     <p>{cardText}</p>

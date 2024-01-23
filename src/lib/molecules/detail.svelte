@@ -9,7 +9,7 @@
 
 <section>
 
-    <img src={cardImage} height="100px" width="200px" alt="Afbeelding van {cardTitle}"/>
+    <img src={cardImage} height="100px" width="200px" alt="{cardTitle}"/>
     <time datetime={cardDate}>{cardDate}</time>
     <h2>{cardTitle}</h2>
     <p>{cardText}</p>
@@ -26,6 +26,7 @@ section{
         height: 23.25rem;
         width: fit-content;
         margin: 1.25rem 0;
+        padding: 0rem 2rem;
     }
 
 section > *:not(img){
@@ -33,8 +34,9 @@ section > *:not(img){
 }
 
 img{
-    height: 12.5rem;
-    width: 20rem;
+    /* display: block; */
+    height: 100%;
+    width: 100%;
     border-radius: 1rem;
 }
 

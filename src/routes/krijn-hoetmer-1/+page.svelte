@@ -1,6 +1,6 @@
 <script>
 
-    import {Card, Header, placeholderImage, cydImage, fennaImage, ishaImage, juliaImage, krijn1Image, krijn2Image, susanImage, yolijnImage, Detail} from '$lib/index.js'
+    import { Header, krijn1Image, Detail} from '$lib/index.js'
     
   
   </script>
@@ -12,7 +12,7 @@ headerText=''/>
 cardImage={krijn1Image}
 cardDate='26-05-23'
 cardTitle='Krijn Hoetmer'
-cardText='Test bla bla bla bla bla'
+cardText='Krijn vertelde ons over de realtime web-app die hij voor zijn badmintonclub had gemaakt. Het was een leerzame talk, omdat we toen precies aan het leren waren over realtime. De manier die Krijn gebruikte was anders dan die van ons; hij gebruikte polling, terwijl wij sockets gebruikten. Het was een interessante presentatie die ook makkelijk te volgen was, omdat Krijn duidelijk passie voor het project had.'
 />
 
 

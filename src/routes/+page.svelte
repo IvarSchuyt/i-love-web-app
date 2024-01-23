@@ -11,8 +11,8 @@ headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door doce
             Op deze pagina documenteer ik de presentaties die ik heb bijgewoond.'
   />
 
-<main>
-
+  <main>
+    
       <Card
       cardImage={fennaImage}
       cardDate='19-01-2024'
@@ -48,9 +48,9 @@ headerText= 'Bij de opleiding FDND worden er veel presentaties gegeven door doce
       <Card
       cardImage={ishaImage}
       cardDate='20-10-2023'
-      cardTitle='Isha Gast'
+      cardTitle='Ischa Gast'
       cardText='Presentatie over toegankelijkheid en hoe hij hiermee te werk gaat.'
-      cardLink2='/isha-gast' 
+      cardLink2='/ischa-gast' 
       />
 
       <Card
