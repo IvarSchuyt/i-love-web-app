@@ -6,7 +6,7 @@
   </script>
 
 <Header
-headerText='.'/>
+headerText=''/>
 
 <Detail
 cardImage={krijn1Image}
